@@ -1,6 +1,6 @@
 import './Pokecard.css';
 
-/** Generating a card for a Pokemon
+/** Generates card for a Pokemon
  * Props: 'Pokemon' object => {name, id, type, base_experience}
  * Returns: Pokemon's name, image, type and base experience in a div
  */
