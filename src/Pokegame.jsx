@@ -5,6 +5,8 @@ import { divideIntoHands } from "./utils.js";
  * Take in deck of 'Pokemon' objects => [{name, id, type, base_experience}, ...]
  * and returns two separate hands. Determines a winner. Displays results to user.
  *
+ * Renders: Pokegame => Pokedex => Pokecard
+ *
  */
 function Pokegame({ deck }) {
   const hands = divideIntoHands(deck);
