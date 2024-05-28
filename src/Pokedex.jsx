@@ -6,10 +6,12 @@ import Pokecard from "./Pokecard.jsx";
  * Returns: div containing sub-divs with Pokemon info
  *
  */
-function Pokedex({ pokemon }) {
+function Pokedex({ pokemon, isWinner }) {
     return (
         <div className="row row-cols-5">
             { pokemon.map(p => <Pokecard pokemon={p}/>)}
+            <p>{isWinner ? "This hand wins!" : ""}</p>
+            <p></p>
         </div>
     );
 }
