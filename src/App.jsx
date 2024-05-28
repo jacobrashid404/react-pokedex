@@ -1,6 +1,5 @@
 import "./App.css";
 import Pokegame from "./Pokegame.jsx";
-import { divideIntoHands } from "./utils.js";
 
 const POKEDEX = [
   { id: 4, name: "Charmander", type: "fire", base_experience: 62 },
