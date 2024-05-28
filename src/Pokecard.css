@@ -2,4 +2,11 @@
   background-color: lightgray;
   border-radius: 20px;
   margin: 30px;
+  transition: transform 0.2s ease;
+}
+
+.Pokecard:hover{
+  background-color: grey;
+  transform: scale(1.5);
+  transition: 0.5s;
 }
